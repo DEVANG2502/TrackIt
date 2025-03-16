@@ -11,6 +11,12 @@ import Dashboard from './pages/Dashboard';
 import ContactUs from './pages/ContactUs';
 import GetQuote from './pages/GetQuote';
 import TransitOrders from './pages/TransitOrders'; // Import TransitOrders
+import Booking from './pages/Booking';
+import OrderDetailPage from './pages/OrderDetailPage';
+
+
+
+
 
 const App = () => {
   return (
@@ -33,6 +39,10 @@ const App = () => {
             <Route path="/ContactUs" element={<ContactUs />} />
             <Route path="/get-quote/:serviceType" element={<GetQuote />} /> {/* Route for GetQuote */}
             <Route path="/transit-orders" element={<TransitOrders />} /> {/* Route for TransitOrders */}
+            <Route path="/booking" element={<Booking />} />
+            <Route path="/order-detail/:orderId" element={<OrderDetailPage />} />
+
+
 
 
           </Routes>

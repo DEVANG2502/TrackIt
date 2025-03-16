@@ -1,0 +1,11 @@
+{
+    "Maharashtra": {
+      "Mumbai": { "rate": 10, "talukas": { "Andheri": 12, "Borivali": 15 } },
+      "Pune": { "rate": 8, "talukas": { "Haveli": 9, "Mulshi": 10 } },
+      "Nagpur": { "rate": 7, "talukas": { "Nagpur Rural": 8, "Katol": 9 } }
+    },
+    "Gujarat": {
+      "Ahmedabad": { "rate": 9, "talukas": { "Daskroi": 10, "Detroj-Rampura": 11 } },
+      "Surat": { "rate": 8, "talukas": { "Choryasi": 9, "Olpad": 10 } }
+    },
+  }

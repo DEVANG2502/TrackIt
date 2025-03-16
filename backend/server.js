@@ -6,6 +6,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
+// import bookingRoutes from "./routes/BookingRoutes.js"; // Import Booking routes
 
 // Load environment variables
 dotenv.config();
